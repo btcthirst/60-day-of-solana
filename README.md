@@ -5,6 +5,7 @@ update solana knowledge
 ```bash
 # step 0
 anchor init day_1 --no-git
+cd day_1
 anchor build
 solana config set --url localhost
 anchor keys sync
